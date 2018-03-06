@@ -1,0 +1,13 @@
+{
+	"name": "nodejs-app-basic",
+	"version": "1.0.0",
+	"description": "A basic project to demonstrate handling data using NodeJs and Hazelcast",
+	"scripts": {
+		"start": "HZ_DEFAULT_GROUP_NAME='dev' HZ_DEFAULT_GROUP_PASSWORD='dev' HZ_SERVERS='{\"nodes\": [{\"host\":\"192.168.0.1\", \"port\": 5701}]}' node server/"
+	},
+	"author": "Andy M",
+	"license": "MIT",
+	"dependencies": {
+		"hazelcast-client": "*"
+	}
+}
